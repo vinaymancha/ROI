@@ -5,6 +5,8 @@ import numpy as np
 image = cv2.imread('C:\\Users\\vinay\\Desktop\\ROI\\images\\image1.jpg', cv2.IMREAD_UNCHANGED)
 
 img_2 = image
+cv2.imshow('img', img_2)
+
 
 
 #extract red channel
